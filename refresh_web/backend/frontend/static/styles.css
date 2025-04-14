@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #191919;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    background-color: transparent;
+    font-size: 6rem;
+}
+.container,.navbar{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.8rem;   
+}
+
+a.menu-item{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 13rem;
+}
+
+a.menu-item:hover{
+    color: #8E0E00;
+}
+
+.text-container,.text-slogan{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BUTTONS */
+
+.btn-container,.btn{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn{
+    background-color: #fff;
+    color: #191919;
+    border: none;
+    padding: 0.3rem;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color: #191919;
+}
+
+.btn-container{
+    padding: 0.001rem 1rem;
+}
+
+button,.btn-card-0,h4,.prices-0{
+    padding:6rem 4.7rem;
+    border-radius: 1rem;
+}
+
+button,.btn-card,h4,.prices{
+    padding:6rem 5rem;
+    border-radius: 1rem;
+}
+
+button,.btn-card-2,h4,.prices-2{
+    padding:6rem 5.2rem;  
+    border-radius: 1rem; 
+}
+
+button,.btn-card-3,h4,.prices-3{
+    padding:4rem 15.2rem;  
+    border-radius: 1rem; 
+}
+
+/* #################################### */
+h1.join-2{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+  /*  font-family: 
+    'Courier New', Courier, monospace
+    ;*/
+}
+
+h1.sale{
+    margin-left: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+h4,.prices{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+h4,.prices-2{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+h5{
+    font-size: 2rem;
+    color: #fff;
+}
+span,.spacer{
+    padding: 2rem;
+    background-color: transparent;
+}
+
+/* HOVER COLORS */
+.btn-card-0:hover{
+    background-color: #a8e063;
+}
+.btn-card:hover{
+    background-color: #96DEDA;
+}
+.btn-card-2:hover{
+    background-color: #f4c4f3;
+}
+
+/* #################################### */
+
+h5,.prices{
+    background-color: transparent;
+}
+h5,.prices-2{
+    background-color: transparent;
+}
+h5,.tier,.prices:hover{
+    background-color: #96DEDA;
+}
+h5,.tier-2,.prices-2:hover{
+    background-color: #f4c4f3;
+}
+/* #################################### */
+
+h5,.tier{
+    background-color: transparent;
+}
+h5,.tier-2{
+    background-color: transparent;
+}
+h5,.tier:hover{
+    background-color: #96DEDA;
+}
+h5,.tier-2:hover{
+    background-color: #f4c4f3;
+}
+
+/*footer*/
+.navbar2,.list2,
+.list-item2,
+#nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    margin-bottom: 5px;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+}
+h4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+}
+
+h6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: medium;
+    font-weight: lighter;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+    padding: 10px;
+}
+h5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: lighter;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+}
+.copyright.h6,.L1,.L2,.L3{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: lighter;
+    color: #fff;
+    background-color: transparent;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri, 
+    'Trebuchet MS', 
+    sans-serif;
+}
+
+#copy-id{
+    color: #fff;
+}
+
+/* Media Queries */
+
+/* ################################################ */
+@media screen and (max-width: 767px) {
+.logo{
+    padding:3rem 8.5rem;
+}
+
+h1.join-2{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size:14px;
+    color: #fff;
+}
+p.crown-mobile{
+    margin-left: -9.7rem;
+
+}
+a.menu-item {
+    padding: 1.1rem;
+}
+.text-container,.text-slogan{
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 3.1rem;
+}
+.text-container,.text-slogan,.h4{
+    padding: 2rem;
+}
+.btn-card-3,.sale-3,.tier-3{
+    max-width: 5%;
+    height: auto;
+}
+.btn-container{
+    padding: 0.001rem 2rem;
+}
+h1.sale{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: #fff;
+
+}
+#iphone-id{
+    margin-left: 2.5rem;
+}
+
+span,.spacer{
+    padding: 2rem;
+    background-color: transparent;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+footer,.copyright.h6,.L1,.L2,.L3{
+    color: #fff;
+}
+}
