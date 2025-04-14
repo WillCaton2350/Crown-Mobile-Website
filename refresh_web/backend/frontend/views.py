@@ -22,13 +22,3 @@ class index_view:
     
     def careers(request):
         return render(request,'careers.html')
-    
-    def reviewForm(request):
-        if request.method == 'POST':
-            form = ReviewForm(request.POST)
-            if form.is_valid():
-                form.save()
-                return render(request,'home.html')
-        else:
-            form = ReviewForm()
-            return render(request, 'contact.html', {'form': form})
